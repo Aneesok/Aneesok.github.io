@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anees Ahmad | Cybersecurity Portfolio</title>
+    <meta name="description" content="Cybersecurity professional specializing in vulnerability assessments, penetration testing, and incident response.">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#home" class="nav-brand">Anees Ahmad</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="assets/docs/Anees-Ahmad-Resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">Download CV</a></li>
+                </ul>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="home" class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="assets/images/profile.png" alt="Portrait of Anees Ahmad">
+                </div>
+                <div class="hero-text">
+                    <h1>Cybersecurity Specialist</h1>
+                    <p class="lead">Network security, digital forensics, penetration testing, and regulatory compliance professional focused on helping organizations harden their defenses.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="summary" aria-labelledby="summary-title">
+            <h2 id="summary-title">🔒 Summary</h2>
+            <p>Cybersecurity graduate with hands-on experience across vulnerability assessments, incident response, digital forensics, and compliance with PCI DSS, ISO 27001, and NIST CSF frameworks. Adept at strengthening cloud and on-premise environments by combining penetration testing, automation tooling, and clear remediation roadmaps.</p>
+            <div class="summary-stats">
+                <div class="stat-card">
+                    <span class="stat-number">65+</span>
+                    <span class="stat-label">Client Projects</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">4.9/5</span>
+                    <span class="stat-label">Average Rating</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">90%</span>
+                    <span class="stat-label">Success Rate</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience" aria-labelledby="experience-title">
+            <h2 id="experience-title">💼 Experience</h2>
+            <article class="timeline-item">
+                <header>
+                    <h3>Cybersecurity Consultant (Freelance)</h3>
+                    <span class="timeline-meta">Aug 2022 – Oct 2024</span>
+                </header>
+                <p>Delivered vulnerability assessments, penetration testing, and incident response for global clients. Applied hybrid manual and automated testing using tools such as Tenable Nessus, OWASP ZAP, Metasploit, Hydra, SQLmap, and Nmap.</p>
+                <ul>
+                    <li>Reduced client downtime by 50% during large-scale botnet attacks through targeted defensive strategies.</li>
+                    <li>Guided organizations through PCI DSS, ISO 27001, NIST CSF, SOC 2, and OSFI compliance roadmaps.</li>
+                    <li>Performed digital forensics with Autopsy and FTK Toolkit to accelerate investigations by 30%.</li>
+                </ul>
+            </article>
+
+            <article class="timeline-item">
+                <header>
+                    <h3>Cyber Security Intern</h3>
+                    <span class="timeline-meta">Jul 2023 – Aug 2023</span>
+                </header>
+                <p>Hands-on internship covering firewall management, Active Directory administration, virtualization, and endpoint security across VMware ESXi, Microsoft Hyper-V, and Kaspersky Small Business Security.</p>
+                <ul>
+                    <li>Implemented GPO-driven access policies that enforced least-privilege across user groups.</li>
+                    <li>Streamlined server monitoring for rapid detection of anomalous traffic patterns.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="projects" class="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">🛠️ Projects</h2>
+            <div class="cards-grid">
+                <article class="project-card">
+                    <h3>IoT Intelligent Honeypot</h3>
+                    <p>Engineered an IoT honeypot with a Random Forest classifier (78.5% accuracy) to detect brute-force and DDoS attempts. Captured attacker telemetry in real time and delivered actionable intelligence.</p>
+                    <ul class="tags">
+                        <li>Python</li>
+                        <li>Machine Learning</li>
+                        <li>Arduino</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <h3>Bot Traffic Analysis & Mitigation</h3>
+                    <p>Diagnosed automated traffic floods from multiple crawlers, implemented rate limiting, tuned WAF policies, and restored service availability for a high-traffic client platform.</p>
+                    <ul class="tags">
+                        <li>WAF</li>
+                        <li>Traffic Engineering</li>
+                        <li>Incident Response</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <h3>VAPT for NAQDE.NET</h3>
+                    <p>Led full-scope vulnerability and penetration testing across production servers, exposing high-risk PII leakage and prioritizing remediation to harden SSL/TLS, CSP, and authentication layers.</p>
+                    <ul class="tags">
+                        <li>OWASP</li>
+                        <li>PCI DSS</li>
+                        <li>Threat Modeling</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <h3>DDoS Incident Response – BACT</h3>
+                    <p>Investigated and resolved a 34-hour denial-of-service incident, coordinating malware removal, log analysis, and layered defenses including 2FA, WAF policies, and IP whitelisting.</p>
+                    <ul class="tags">
+                        <li>Forensics</li>
+                        <li>Mitigation</li>
+                        <li>Security Operations</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="education" class="education" aria-labelledby="education-title">
+            <h2 id="education-title">🎓 Education</h2>
+            <div class="timeline-item">
+                <h3>MS, Computer Science & Technology</h3>
+                <span class="timeline-meta">Ulster University • 2025 – Present</span>
+            </div>
+            <div class="timeline-item">
+                <h3>BSc, Cyber Security</h3>
+                <span class="timeline-meta">Air University • 2020 – 2024</span>
+            </div>
+        </section>
+
+        <section class="certifications" aria-labelledby="certifications-title">
+            <h2 id="certifications-title">📜 Certifications</h2>
+            <ul class="chip-list">
+                <li>Cisco Networking Essentials (2025)</li>
+                <li>Cisco Ethical Hacker (2025)</li>
+                <li>EC-Council Hacking & Penetration Testing Lab (2025)</li>
+                <li>EC-Council Ethical Hacking Essentials (2024)</li>
+                <li>EC-Council Digital Forensics Essentials (2024)</li>
+                <li>Pakistan Aeronautical Complex Cyber Security Internship (2023)</li>
+            </ul>
+        </section>
+
+        <section class="skills" aria-labelledby="skills-title">
+            <h2 id="skills-title">🧠 Skills</h2>
+            <div class="chip-list">
+                <span>Vulnerability Assessment</span>
+                <span>Penetration Testing</span>
+                <span>Network Security</span>
+                <span>Digital Forensics</span>
+                <span>Incident Response</span>
+                <span>Compliance &amp; Governance</span>
+                <span>Python</span>
+                <span>C / C++</span>
+                <span>Windows &amp; Linux Administration</span>
+                <span>Microsoft 365</span>
+            </div>
+        </section>
+
+        <section id="contact" class="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">📬 Contact</h2>
+            <div class="contact-grid">
+                <div>
+                    <p><strong>Email:</strong> <a href="mailto:aneesahmed2859@gmail.com">aneesahmed2859@gmail.com</a></p>
+                    <p><strong>Location:</strong> United Kingdom</p>
+                </div>
+                <div>
+                    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/aneesahmad" target="_blank" rel="noopener">linkedin.com/in/aneesahmad</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+447507834357">+44 7507 834 357</a></p>
+                </div>
+            </div>
+            <div class="contact-cta">
+                <p>Open to cybersecurity consulting, penetration testing, and collaborative research engagements.</p>
+                <a class="btn" href="mailto:aneesahmed2859@gmail.com">Start a Conversation</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> Anees Ahmad. Built with passion for secure systems.</p>
+            <a href="#home" class="back-to-top" aria-label="Back to top">↑</a>
+        </div>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        if (savedTheme === 'dark') {
+            html.setAttribute('data-theme', 'dark');
+            themeToggle.textContent = '☀️';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const isDark = html.getAttribute('data-theme') === 'dark';
+            html.setAttribute('data-theme', isDark ? 'light' : 'dark');
+            themeToggle.textContent = isDark ? '🌙' : '☀️';
+            localStorage.setItem('theme', isDark ? 'light' : 'dark');
+        });
+
+        const mobileToggle = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            mobileToggle.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                mobileToggle.classList.remove('active');
+            });
+        });
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+
